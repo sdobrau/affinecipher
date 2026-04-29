@@ -1,4 +1,4 @@
-package affinecipher
+package main
 
 import (
 	"errors"
