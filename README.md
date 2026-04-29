@@ -2,10 +2,18 @@
 
 Implementation of Affine Cipher in Go.
 
+# Installation
+
+```
+git clone https://github.com/sdobrau/affinecipher
+cd affinecipher
+go install
+```
+
 # Usage
 
 ```
-go run affinecipher.go -s STRING -d|-e -a N -b N
+affinecipher -s STRING -d|-e -a N -b N
 Flags:
   -a int
         Key A
